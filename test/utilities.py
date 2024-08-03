@@ -1,5 +1,6 @@
 import os
 import subprocess
+import pytest
 
 # Used for "--version" testing, must be in sync with the uw script.
 VERSION="0.7.2\n"
