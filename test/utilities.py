@@ -1,6 +1,9 @@
 import os
 import subprocess
 
+# Used for "--version" testing, must be in sync with the uw script.
+VERSION="0.7.2\n"
+# The home directory inside the Docker container.
 HOME=os.path.expanduser("~")
 
 class ShellResult:
