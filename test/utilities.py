@@ -6,6 +6,8 @@ import pytest
 VERSION="0.7.2\n"
 # The home directory inside the Docker container.
 HOME=os.path.expanduser("~")
+# The command in ~/.bashrc.
+UW_SOURCE='source "$(which uw)" --bashrc 2>/dev/null || true\n'
 
 class ShellResult:
     def __init__(
