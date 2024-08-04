@@ -3,7 +3,7 @@ import subprocess
 import pytest
 
 # Used for "--version" testing, must be in sync with the uw script.
-VERSION="0.7.2\n"
+VERSION="0.8.0\n"
 # The home directory inside the Docker container.
 HOME=os.path.expanduser("~")
 # The command in ~/.bashrc.
