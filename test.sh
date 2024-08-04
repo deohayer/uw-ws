@@ -4,12 +4,6 @@ ROOT="$(realpath $(dirname "${BASH_SOURCE[0]}"))"
 
 # Python-Ubuntu versions.
 VERSIONS=(
-    "3.6 18.04"
-    "3.7 19.10"
-    "3.8 20.04"
-    "3.9 21.10"
-    "3.10 22.04"
-    "3.11 23.10"
     "3.12 24.04"
 )
 RESULTS=()
