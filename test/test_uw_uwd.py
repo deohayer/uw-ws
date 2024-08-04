@@ -10,7 +10,6 @@ HELP=str(
     "Optional arguments:\n"
     "  --help       Print the help text, then exit.\n"
     "  --version    Print the version, then exit.\n"
-    "  --daemon     Launch in background.\n"
 )
 
 class Test:
