@@ -14,6 +14,7 @@ def test_0001():
         "Optional arguments:\n"
         "  --help       Print the help text, then exit.\n"
         "  --version    Print the version, then exit.\n"
+        "\n"
     )
 
 def test_0002():
