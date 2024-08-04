@@ -35,6 +35,7 @@ for i in "${!VERSIONS[@]}"; do
     # Prepare Docker image.
     echo "Prepare image."
     docker build \
+        --quiet \
         --build-arg VERSION=${DOCKER} \
         --tag uw:${DOCKER} \
         "${ROOT}/test" > /dev/null
