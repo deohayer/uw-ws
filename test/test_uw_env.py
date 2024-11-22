@@ -12,8 +12,8 @@ class Test:
         with open(f"{WS}/.uw/uwx.sh", "w+") as file:
             file.write(
                 '#!/usr/bin/env bash\n' \
-                'declare -r uw_help="A customized help text."\n'
-                'declare -ra uw_args=("command" "cmd")\n'
+                'declare -r UW_HELP="A customized help text."\n'
+                'declare -ra UW_TGTS=("command" "cmd")\n'
                 'uw_init "$@"\n'
                 '\n'
                 'echo "$VAR"\n'
